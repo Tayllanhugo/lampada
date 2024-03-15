@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-lampada {
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    align-items: center;
+    flex-direction: column;
+    padding: 70px;
+}
+
+.container-lampada h1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container-lampada img {
+    width: 200px;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.356);
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(102, 102, 102);
+}
+
+button:active {
+    background-color: rgb(170, 170, 170);
+}
